@@ -5,8 +5,9 @@
   ![Clases](https://user-images.githubusercontent.com/70788046/93735824-e812ab00-fba3-11ea-8845-74e23da28af5.png)
     
 > Open/Closed principle
-		Debido a un nuevo requerimiento en el que se requiere un nuevo tipo de envio a compañia en el cual se requiere una cuenta bancaria, por lo cual se realiza una extencion de la     clase Delivery respetando el principio sin modificar la clase Delivery.
+		Debido a un nuevo requerimiento en el que se necesita un nuevo tipo de envio a compañia en el cual se requiere una cuenta bancaria, por lo cual se realiza una extencion de la     clase Delivery respetando el principio sin modificar la clase Delivery.
  
+ ![Clase Delivery](https://user-images.githubusercontent.com/70788046/93736288-79cee800-fba5-11ea-9551-cad47a7d81a5.png)
  
 > Liskov Substitution principle
 		Las clases Delivery y Payment son subclases de la  clase Transaction, al inicicializar las trasacciones en la clase Main , se puede reemplazar por sus subclases y al ejecutar el metodo save  funciona de igual manera.  
