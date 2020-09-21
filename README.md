@@ -15,6 +15,8 @@
 ![Clase Payment](https://user-images.githubusercontent.com/70788046/93736396-c9adaf00-fba5-11ea-8dde-01c9f0d7a06c.png)
 > Interface segregation principle
 		Los clientes que realizan transacciones de envio acumulan puntos pero los que realizan pagos no , por lo cual se tiene la interfaz IPoints que es implementada por la clase de envios pero no de pagos.
+
+![Interfaz IPoints](https://user-images.githubusercontent.com/70788046/93736613-83a51b00-fba6-11ea-8395-65c2fcc1fed4.png)
     
 > Dependendy Inversion principle
 		Todas las transacciones requieren las instancias de las persistencia qeu van  a usar , asi  el servicio de  persistencia no depende de una instancia especifica.
