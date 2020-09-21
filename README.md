@@ -10,10 +10,11 @@
  ![Clase Delivery](https://user-images.githubusercontent.com/70788046/93736288-79cee800-fba5-11ea-9551-cad47a7d81a5.png)
  
 > Liskov Substitution principle
-		Las clases Delivery y Payment son subclases de la  clase Transaction, al inicicializar las trasacciones en la clase Main , se puede reemplazar por sus subclases y al ejecutar el metodo save  funciona de igual manera.  
-
+		Las clases Delivery y Payment son subclases de la  clase Transaction, al inicicializar las trasacciones en la clase Main , se puede reemplazar por sus subclases y al ejecutar el metodo save  funciona de igual manera. 
+		
+![Clase Payment](https://user-images.githubusercontent.com/70788046/93736396-c9adaf00-fba5-11ea-8dde-01c9f0d7a06c.png)
 > Interface segregation principle
-		Los clientes que realizan transacciones de envio acumulan puntos pero los qeu realizan pagos no , por lo cual se tiene la interfaz IPoints que es implementada por la clase de envios pero no de pagos.
+		Los clientes que realizan transacciones de envio acumulan puntos pero los que realizan pagos no , por lo cual se tiene la interfaz IPoints que es implementada por la clase de envios pero no de pagos.
     
 > Dependendy Inversion principle
 		Todas las transacciones requieren las instancias de las persistencia qeu van  a usar , asi  el servicio de  persistencia no depende de una instancia especifica.
